@@ -1,2 +1,4 @@
 .env
 final/.env
+data/all_us_doctors.csv
+us_healthcare.db
