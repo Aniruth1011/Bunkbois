@@ -24,6 +24,8 @@ from data_quality_router import DataQualityRouter
 from domain_knowledge_agent import DomainKnowledgeAgent
 from external_verification_agent import ExternalVerificationAgent  # 🆕 NEW!
 
+from improved_domain_knowledge_agent import ImprovedDomainKnowledgeAgent
+from enhanced_sql_agent import EnhancedSQLAgent
 
 class SupervisorAgent:
     """Enhanced supervisor with analytics query routing."""

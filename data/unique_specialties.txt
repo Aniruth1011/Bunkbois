@@ -1,0 +1,312 @@
+Acupuncturist
+Adult Companion
+Advanced Practice Midwife
+"Allergy & Immunology, Allergy"
+Anesthesiologist Assistant
+Anesthesiology
+"Anesthesiology, Critical Care Medicine"
+"Anesthesiology, Pain Medicine"
+Art Therapist
+Assistant Behavior Analyst
+Assisted Living Facility
+"Assisted Living Facility, Assisted Living, Mental Illness"
+Audiologist
+Audiologist-Hearing Aid Fitter
+Behavior Analyst
+Behavior Technician
+Case Management
+Case Manager/Care Coordinator
+Chiropractor
+"Chiropractor, Orthopedic"
+"Chiropractor, Rehabilitation"
+"Chiropractor, Sports Physician"
+Clinic/Center
+"Clinic/Center, Birthing"
+"Clinic/Center, Mental Health (Including Community Mental Health Center)"
+"Clinic/Center, Rehabilitation"
+Clinical Exercise Physiologist
+Clinical Neuropsychologist
+Clinical Nurse Specialist
+"Clinical Nurse Specialist, Acute Care"
+"Clinical Nurse Specialist, Pediatrics"
+Colon & Rectal Surgery
+"Community Based Residential Treatment Facility, Intellectual and/or Developmental Disabilities"
+Community Health Worker
+Community/Behavioral Health
+Contractor
+Counselor
+"Counselor, Addiction (Substance Use Disorder)"
+"Counselor, Mental Health"
+"Counselor, Pastoral"
+"Counselor, Professional"
+"Counselor, School"
+Day Training/Habilitation Specialist
+Dental Assistant
+Dental Hygienist
+Dentist
+"Dentist, Dental Public Health"
+"Dentist, Endodontics"
+"Dentist, General Practice"
+"Dentist, Oral and Maxillofacial Surgery"
+"Dentist, Orthodontics and Dentofacial Orthopedics"
+"Dentist, Pediatric Dentistry"
+"Dentist, Periodontics"
+"Dentist, Prosthodontics"
+Dermatology
+Developmental Therapist
+"Dietitian, Registered"
+Doula
+Drama Therapist
+Driver
+Durable Medical Equipment & Medical Supplies
+Early Intervention Provider Agency
+Electrodiagnostic Medicine
+"Emergency Medical Technician, Intermediate"
+"Emergency Medical Technician, Paramedic"
+Emergency Medicine
+"Emergency Medicine, Emergency Medical Services"
+"Emergency Medicine, Medical Toxicology"
+Family Medicine
+"Family Medicine, Addiction Medicine"
+"Family Medicine, Adult Medicine"
+"Family Medicine, Hospice and Palliative Medicine"
+"Family Medicine, Sports Medicine"
+Foster Care Agency
+General Acute Care Hospital
+General Practice
+"Genetic Counselor, MS"
+Health & Wellness Coach
+Health Educator
+Hearing Instrument Specialist
+Home Health
+Home Health Aide
+Homemaker
+Hospitalist
+In Home Supportive Care
+Internal Medicine
+"Internal Medicine, Addiction Medicine"
+"Internal Medicine, Adolescent Medicine"
+"Internal Medicine, Adult Congenital Heart Disease"
+"Internal Medicine, Advanced Heart Failure and Transplant Cardiology"
+"Internal Medicine, Cardiovascular Disease"
+"Internal Medicine, Clinical Cardiac Electrophysiology"
+"Internal Medicine, Critical Care Medicine"
+"Internal Medicine, Endocrinology, Diabetes & Metabolism"
+"Internal Medicine, Gastroenterology"
+"Internal Medicine, Geriatric Medicine"
+"Internal Medicine, Hematology"
+"Internal Medicine, Hematology & Oncology"
+"Internal Medicine, Hospice and Palliative Medicine"
+"Internal Medicine, Infectious Disease"
+"Internal Medicine, Interventional Cardiology"
+"Internal Medicine, Medical Oncology"
+"Internal Medicine, Nephrology"
+"Internal Medicine, Pulmonary Disease"
+"Internal Medicine, Rheumatology"
+"Internal Medicine, Sleep Medicine"
+Interpreter
+Kinesiotherapist
+"Lactation Consultant, Non-RN"
+Licensed Practical Nurse
+Licensed Psychiatric Technician
+Licensed Vocational Nurse
+Marriage & Family Therapist
+Massage Therapist
+Mechanotherapist
+"Medical Genetics, Clinical Genetics (M.D.)"
+Midwife
+"Military Health Care Provider, Independent Duty Medical Technicians"
+Music Therapist
+Naturopath
+Neurological Surgery
+"Neuromusculoskeletal Medicine, Sports Medicine"
+Non-emergency Medical Transport (VAN)
+Nuclear Medicine
+"Nuclear Medicine, Nuclear Cardiology"
+"Nurse Anesthetist, Certified Registered"
+Nurse Practitioner
+"Nurse Practitioner, Acute Care"
+"Nurse Practitioner, Adult Health"
+"Nurse Practitioner, Community Health"
+"Nurse Practitioner, Family"
+"Nurse Practitioner, Gerontology"
+"Nurse Practitioner, Neonatal"
+"Nurse Practitioner, Neonatal, Critical Care"
+"Nurse Practitioner, Obstetrics & Gynecology"
+"Nurse Practitioner, Pediatrics"
+"Nurse Practitioner, Pediatrics, Critical Care"
+"Nurse Practitioner, Primary Care"
+"Nurse Practitioner, Psych/Mental Health"
+"Nurse Practitioner, Women's Health"
+Nurse's Aide
+Nursing Care
+Nutritionist
+"Nutritionist, Nutrition, Education"
+Obstetrics & Gynecology
+"Obstetrics & Gynecology, Gynecology"
+"Obstetrics & Gynecology, Hospice and Palliative Medicine"
+"Obstetrics & Gynecology, Maternal & Fetal Medicine"
+"Obstetrics & Gynecology, Obstetrics"
+"Obstetrics & Gynecology, Reproductive Endocrinology"
+"Obstetrics & Gynecology, Urogynecology and Reconstructive Pelvic Surgery"
+Occupational Therapist
+"Occupational Therapist, Hand"
+"Occupational Therapist, Pediatrics"
+"Occupational Therapist, Physical Rehabilitation"
+Occupational Therapy Assistant
+"Occupational Therapy Assistant, Low Vision"
+Ophthalmology
+"Ophthalmology, Glaucoma Specialist"
+"Ophthalmology, Retina Specialist"
+Optometrist
+Orthopaedic Surgery
+"Orthopaedic Surgery, Adult Reconstructive Orthopaedic Surgery"
+"Orthopaedic Surgery, Foot and Ankle Surgery"
+"Orthopaedic Surgery, Sports Medicine"
+Orthotic Fitter
+Otolaryngology
+"Otolaryngology, Pediatric Otolaryngology"
+"Otolaryngology, Sleep Medicine"
+"Pain Medicine, Interventional Pain Medicine"
+"Pathology, Anatomic Pathology"
+"Pathology, Anatomic Pathology & Clinical Pathology"
+"Pathology, Clinical Pathology/Laboratory Medicine"
+"Pathology, Cytopathology"
+"Pathology, Dermatopathology"
+"Pathology, Forensic Pathology"
+"Pathology, Hematology"
+Pediatrics
+"Pediatrics, Adolescent Medicine"
+"Pediatrics, Neonatal-Perinatal Medicine"
+"Pediatrics, Pediatric Cardiology"
+"Pediatrics, Pediatric Critical Care Medicine"
+"Pediatrics, Pediatric Emergency Medicine"
+"Pediatrics, Pediatric Endocrinology"
+"Pediatrics, Pediatric Gastroenterology"
+"Pediatrics, Pediatric Hematology-Oncology"
+"Pediatrics, Pediatric Infectious Diseases"
+"Pediatrics, Pediatric Rheumatology"
+"Pediatrics, Sports Medicine"
+Peer Specialist
+Pharmacist
+"Pharmacist, Ambulatory Care"
+"Pharmacist, Critical Care"
+"Pharmacist, Emergency Medicine"
+"Pharmacist, Geriatric"
+"Pharmacist, Pharmacist Clinician (PhC)/ Clinical Pharmacy Specialist"
+"Pharmacist, Pharmacotherapy"
+Pharmacy Technician
+"Pharmacy, Community/Retail Pharmacy"
+Physical Medicine & Rehabilitation
+"Physical Medicine & Rehabilitation, Pain Medicine"
+"Physical Medicine & Rehabilitation, Spinal Cord Injury Medicine"
+Physical Therapist
+"Physical Therapist, Geriatrics"
+"Physical Therapist, Neurology"
+"Physical Therapist, Orthopedic"
+"Physical Therapist, Pediatrics"
+Physical Therapy Assistant
+Physician Assistant
+"Physician Assistant, Medical"
+"Physician Assistant, Surgical"
+Plastic Surgery
+Podiatrist
+"Podiatrist, Foot & Ankle Surgery"
+"Preventive Medicine, Occupational Medicine"
+Private Vehicle
+Prosthetist
+Psychiatric Unit
+"Psychiatry & Neurology, Addiction Medicine"
+"Psychiatry & Neurology, Child & Adolescent Psychiatry"
+"Psychiatry & Neurology, Epilepsy"
+"Psychiatry & Neurology, Neurology"
+"Psychiatry & Neurology, Neuromuscular Medicine"
+"Psychiatry & Neurology, Psychiatry"
+Psychoanalyst
+Psychologist
+"Psychologist, Adult Development & Aging"
+"Psychologist, Clinical"
+"Psychologist, Clinical Child & Adolescent"
+"Psychologist, Cognitive & Behavioral"
+"Psychologist, Counseling"
+"Psychologist, Health"
+"Psychologist, Prescribing (Medical)"
+"Psychologist, Psychoanalysis"
+"Psychologist, Rehabilitation"
+"Psychologist, School"
+Radiologic Technologist
+"Radiologic Technologist, Magnetic Resonance Imaging"
+"Radiology, Body Imaging"
+"Radiology, Diagnostic Radiology"
+"Radiology, Diagnostic Ultrasound"
+"Radiology, Pediatric Radiology"
+"Radiology, Therapeutic Radiology"
+"Radiology, Vascular & Interventional Radiology"
+Recreation Therapist
+Registered Nurse
+"Registered Nurse, Addiction (Substance Use Disorder)"
+"Registered Nurse, Administrator"
+"Registered Nurse, Case Management"
+"Registered Nurse, Community Health"
+"Registered Nurse, Continuing Education/Staff Development"
+"Registered Nurse, Critical Care Medicine"
+"Registered Nurse, Diabetes Educator"
+"Registered Nurse, Emergency"
+"Registered Nurse, Flight"
+"Registered Nurse, General Practice"
+"Registered Nurse, Home Health"
+"Registered Nurse, Infusion Therapy"
+"Registered Nurse, Lactation Consultant"
+"Registered Nurse, Maternal Newborn"
+"Registered Nurse, Medical-Surgical"
+"Registered Nurse, Obstetric, Inpatient"
+"Registered Nurse, Pain Management"
+"Registered Nurse, Pediatrics"
+"Registered Nurse, Plastic Surgery"
+"Registered Nurse, Psych/Mental Health"
+"Registered Nurse, Psych/Mental Health, Adult"
+"Registered Nurse, Psych/Mental Health, Child & Adolescent"
+"Registered Nurse, Registered Nurse First Assistant"
+"Registered Nurse, Rehabilitation"
+"Registered Nurse, School"
+Rehabilitation Practitioner
+"Residential Treatment Facility, Intellectual and/or Developmental Disabilities"
+"Respiratory Therapist, Certified"
+"Respiratory Therapist, Registered"
+"Respiratory Therapist, Registered, Critical Care"
+Secured Medical Transport (VAN)
+Skilled Nursing Facility
+Social Worker
+"Social Worker, Clinical"
+"Social Worker, School"
+"Spec/Tech, Cardiovascular, Sonography"
+"Spec/Tech, Pathology, Histology"
+Specialist
+"Specialist, Prosthetics Case Management"
+"Specialist, Research Study"
+"Specialist/Technologist, Athletic Trainer"
+"Specialist/Technologist, Other, Art, Medical"
+"Specialist/Technologist, Other, EEG"
+"Specialist/Technologist, Other, Electroneurodiagnostic"
+"Specialist/Technologist, Other, Nephrology"
+"Specialist/Technologist, Other, Surgical Assistant"
+"Specialist/Technologist, Other, Surgical Technologist"
+"Specialist/Technologist, Speech-Language Assistant"
+"Speech-Language Pathologist,"
+Student in an Organized Health Care Education/Training Program
+Surgery
+"Surgery, Hospice and Palliative Medicine"
+"Surgery, Pediatric Surgery"
+"Surgery, Plastic and Reconstructive Surgery"
+"Surgery, Surgical Oncology"
+Technician
+"Technician, Attendant Care Provider"
+"Technician, Other"
+"Technician, Pathology, Medical Laboratory"
+"Technician, Pathology, Phlebotomy"
+"Technician, Personal Care Attendant"
+Technician/Technologist
+"Technician/Technologist, Optician"
+Thoracic Surgery (Cardiothoracic Vascular Surgery)
+Urology
+Veterinarian

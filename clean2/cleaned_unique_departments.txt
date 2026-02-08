@@ -1,0 +1,31 @@
+"Ear
+Anesthesiology
+Cardiology
+Critical Care
+Dermatology
+Emergency Medicine
+Endocrinology
+Family Medicine
+Gastroenterology
+General Practice
+General/Other
+Hematology
+Infectious Disease
+Internal Medicine
+Nephrology
+Neurology
+Nuclear Medicine
+Obstetrics & Gynecology
+Ophthalmology
+Orthopedic Surgery
+Pain Management
+Pathology
+Pediatrics
+Physical Medicine & Rehabilitation
+Preventive Medicine
+Psychiatry
+Radiology
+Rheumatology
+Sports Medicine
+Surgery
+Urology

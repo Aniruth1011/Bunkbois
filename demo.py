@@ -17,7 +17,7 @@ if not os.path.exists('.env'):
     sys.exit(1)
 
 from config import Config
-from enhanced_healthcare_agent2 import run_query
+from enhanced_healthcare_agent3 import run_query
 
 
 def print_header():

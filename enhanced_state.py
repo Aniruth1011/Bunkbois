@@ -105,40 +105,83 @@ class DesertClassification(TypedDict, total=False):
 
 # ==================== MAIN APPLICATION STATE ====================
 
+# class AppState(TypedDict, total=False):
+#     """
+#     Enhanced state object passed between all agents in the graph.
+#     """
+    
+#     # ========== EXISTING FIELDS (Core conversation) ==========
+#     messages: List[BaseMessage]
+#     intent: str
+#     plan: Optional[List[str]]
+    
+#     # ========== EXISTING FIELDS (Agent results) ==========
+#     sql_result: Optional[Dict[str, Any]]
+#     vector_result: Optional[Dict[str, Any]]
+#     geo_result: Optional[Dict[str, Any]]
+#     medical_reasoning: Optional[Dict[str, Any]]
+    
+#     # ========== EXISTING FIELDS (Metadata) ==========
+#     intermediate_results: Dict[str, Any]
+#     final_response: Optional[str]
+#     errors: List[str]
+#     citations: List[Dict[str, Any]]
+    
+#     # ========== NEW FIELDS (Analytics pipeline) ==========
+#     analytics_plan: Optional[List[str]]  # Which analytics agents to run
+#     analytics_results: Dict[str, AnalyticsResult]  # Results keyed by agent name
+#     analytics_executed: List[str]  # Track which agents have run
+    
+#     # ========== NEW FIELDS (Capability-specific results) ==========
+#     skill_infra_mismatches: List[SkillInfraMismatch]
+#     reachability_scores: Dict[str, ReachabilityScore]
+#     contradiction_graph: Optional[ContradictionGraph]
+#     counterfactual_state: Optional[CounterfactualState]
+#     desert_typology: Dict[str, DesertClassification]
+    
+#     # ========== NEW FIELDS (External verification) ==========
+#     external_search_results: Dict[str, Any]  # Google SERP, Reddit, Tavily
+#     verification_needed: List[Dict[str, Any]]  # Claims requiring verification
+
 class AppState(TypedDict, total=False):
     """
-    Enhanced state object passed between all agents in the graph.
+    State schema for the Healthcare Agent multi-agent system.
+    
+    CRITICAL: All fields that agents want to pass between each other
+    MUST be defined here, or LangGraph will silently drop them!
     """
     
-    # ========== EXISTING FIELDS (Core conversation) ==========
+    # Core conversation fields
     messages: List[BaseMessage]
     intent: str
-    plan: Optional[List[str]]
+    plan: Optional[str]
     
-    # ========== EXISTING FIELDS (Agent results) ==========
+    # Agent results
     sql_result: Optional[Dict[str, Any]]
     vector_result: Optional[Dict[str, Any]]
     geo_result: Optional[Dict[str, Any]]
-    medical_reasoning: Optional[Dict[str, Any]]
+    medical_reasoning: Optional[str]
     
-    # ========== EXISTING FIELDS (Metadata) ==========
+    # Workflow fields
     intermediate_results: Dict[str, Any]
     final_response: Optional[str]
     errors: List[str]
     citations: List[Dict[str, Any]]
     
-    # ========== NEW FIELDS (Analytics pipeline) ==========
-    analytics_plan: Optional[List[str]]  # Which analytics agents to run
-    analytics_results: Dict[str, AnalyticsResult]  # Results keyed by agent name
-    analytics_executed: List[str]  # Track which agents have run
+    # Analytics fields
+    analytics_plan: Optional[List[str]]
+    analytics_results: Dict[str, Any]
+    analytics_executed: List[str]
+    skill_infra_mismatches: List[Dict[str, Any]]
+    reachability_scores: Dict[str, Any]
+    contradiction_graph: Optional[Any]
+    counterfactual_state: Optional[Dict[str, Any]]
+    desert_typology: Dict[str, Any]
     
-    # ========== NEW FIELDS (Capability-specific results) ==========
-    skill_infra_mismatches: List[SkillInfraMismatch]
-    reachability_scores: Dict[str, ReachabilityScore]
-    contradiction_graph: Optional[ContradictionGraph]
-    counterfactual_state: Optional[CounterfactualState]
-    desert_typology: Dict[str, DesertClassification]
+    # External verification fields
+    external_search_results: Dict[str, Any]
+    verification_needed: List[str]
     
-    # ========== NEW FIELDS (External verification) ==========
-    external_search_results: Dict[str, Any]  # Google SERP, Reddit, Tavily
-    verification_needed: List[Dict[str, Any]]  # Claims requiring verification
+    # ✅ CRITICAL FIX: Domain knowledge normalization field
+    # This MUST be defined here or LangGraph will drop it!
+    normalized_constraints: Dict[str, Any]

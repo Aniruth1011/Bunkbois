@@ -1,0 +1,160 @@
+"Allergy & Immunology
+"Anesthesiology
+"Assisted Living Facility
+"Chiropractor
+"Clinic/Center
+"Clinical Nurse Specialist
+"Community Based Residential Treatment Facility
+"Counselor
+"Dentist
+"Dietitian
+"Emergency Medical Technician
+"Emergency Medicine
+"Family Medicine
+"Genetic Counselor
+"Internal Medicine
+"Lactation Consultant
+"Medical Genetics
+"Military Health Care Provider
+"Neuromusculoskeletal Medicine
+"Nuclear Medicine
+"Nurse Anesthetist
+"Nurse Practitioner
+"Nutritionist
+"Obstetrics & Gynecology
+"Occupational Therapist
+"Occupational Therapy Assistant
+"Ophthalmology
+"Orthopaedic Surgery
+"Otolaryngology
+"Pain Medicine
+"Pathology
+"Pediatrics
+"Pharmacist
+"Pharmacy
+"Physical Medicine & Rehabilitation
+"Physical Therapist
+"Physician Assistant
+"Podiatrist
+"Preventive Medicine
+"Psychiatry & Neurology
+"Psychologist
+"Radiologic Technologist
+"Radiology
+"Registered Nurse
+"Residential Treatment Facility
+"Respiratory Therapist
+"Social Worker
+"Spec/Tech
+"Specialist
+"Specialist/Technologist
+"Speech-Language Pathologist
+"Surgery
+"Technician
+"Technician/Technologist
+Acupuncturist
+Adult Companion
+Advanced Practice Midwife
+Anesthesiologist Assistant
+Anesthesiology
+Art Therapist
+Assistant Behavior Analyst
+Assisted Living Facility
+Audiologist
+Audiologist-Hearing Aid Fitter
+Behavior Analyst
+Behavior Technician
+Case Management
+Case Manager/Care Coordinator
+Chiropractor
+Clinic/Center
+Clinical Exercise Physiologist
+Clinical Neuropsychologist
+Clinical Nurse Specialist
+Colon & Rectal Surgery
+Community Health Worker
+Community/Behavioral Health
+Contractor
+Counselor
+Day Training/Habilitation Specialist
+Dental Assistant
+Dental Hygienist
+Dentist
+Dermatology
+Developmental Therapist
+Doula
+Drama Therapist
+Driver
+Durable Medical Equipment & Medical Supplies
+Early Intervention Provider Agency
+Electrodiagnostic Medicine
+Emergency Medicine
+Family Medicine
+Foster Care Agency
+General Acute Care Hospital
+General Practice
+Health & Wellness Coach
+Health Educator
+Hearing Instrument Specialist
+Home Health
+Home Health Aide
+Homemaker
+Hospitalist
+In Home Supportive Care
+Internal Medicine
+Interpreter
+Kinesiotherapist
+Licensed Practical Nurse
+Licensed Psychiatric Technician
+Licensed Vocational Nurse
+Marriage & Family Therapist
+Massage Therapist
+Mechanotherapist
+Midwife
+Music Therapist
+Naturopath
+Neurological Surgery
+Non-emergency Medical Transport (VAN)
+Nuclear Medicine
+Nurse Practitioner
+Nurse's Aide
+Nursing Care
+Nutritionist
+Obstetrics & Gynecology
+Occupational Therapist
+Occupational Therapy Assistant
+Ophthalmology
+Optometrist
+Orthopaedic Surgery
+Orthotic Fitter
+Otolaryngology
+Pediatrics
+Peer Specialist
+Pharmacist
+Pharmacy Technician
+Physical Medicine & Rehabilitation
+Physical Therapist
+Physical Therapy Assistant
+Physician Assistant
+Plastic Surgery
+Podiatrist
+Private Vehicle
+Prosthetist
+Psychiatric Unit
+Psychoanalyst
+Psychologist
+Radiologic Technologist
+Recreation Therapist
+Registered Nurse
+Rehabilitation Practitioner
+Secured Medical Transport (VAN)
+Skilled Nursing Facility
+Social Worker
+Specialist
+Student in an Organized Health Care Education/Training Program
+Surgery
+Technician
+Technician/Technologist
+Thoracic Surgery (Cardiothoracic Vascular Surgery)
+Urology
+Veterinarian
