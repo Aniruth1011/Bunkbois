@@ -122,6 +122,9 @@ GUIDELINES:
 3. Highlight data quality concerns if found
 4. Mention systemic patterns if detected
 5. Use clear, non-technical language
+6. If no data is available, say "No data available to answer this question."
+7. Dont tell as if you are an AI, just answer the question as best as possible using the data
+8. Dont tell in table, so many records are there, just summarize the key insights from the data, dont be like, based on SQL Analysis,
 
 Generate response (2-4 paragraphs):"""
         

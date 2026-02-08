@@ -117,17 +117,8 @@ Available data:
 
 {citations}
 
-1. Answer directly and concisely
-2. Cite specific numbers and facts
-3. Highlight data quality concerns if found
-4. Mention systemic patterns if detected
-5. Use clear, non-technical language
 Generate a clear, concise answer. Include specific numbers and facts. Be direct and accurate.
 If external verification was performed, mention the verification results.
-If no data is available, say "No data available to answer this question."
-Dont tell as if you are an AI, just answer the question as best as possible using the data
-Dont tell in table, so many records are there, just summarize the key insights from the data, dont be like, based on SQL Analysis,
-
 
 Answer:"""
         
