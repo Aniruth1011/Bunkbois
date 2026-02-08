@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Agent System Diagrams</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #1976D2;
+            border-bottom: 3px solid #1976D2;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #388E3C;
+            margin-top: 40px;
+        }
+        .diagram-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .legend {
+            background: #E3F2FD;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #1976D2;
+        }
+        .legend ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .legend li {
+            margin: 5px 0;
+        }
+        .note {
+            background: #FFF9C4;
+            padding: 15px;
+            border-left: 4px solid #F57C00;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏥 Healthcare Agent System Architecture</h1>
+    
+    <div class="note">
+        <strong>Interactive Diagrams:</strong> These diagrams are fully interactive. 
+        You can zoom, pan, and click on elements. The diagrams auto-generate from Mermaid syntax.
+    </div>
+
+    <h2>1. System Architecture</h2>
+    <div class="diagram-container">
+        <div class="mermaid">
+graph TB
+    User[👤 User Query]
+    IntentRouter[🧭 Intent Router<br/>Classify Query Type]
+    
+    subgraph Core["Core Data Agents"]
+        SQL[💾 SQL Agent<br/>Structured Queries]
+        Vector[🔍 Vector Agent<br/>Semantic Search]
+        Geo[🗺️ Geo Agent<br/>Spatial Analysis]
+    end
+    
+    DataQualityRouter[🧭 Data Quality Router<br/>Plan Analytics Pipeline]
+    
+    subgraph Analytics["Advanced Analytics Agents"]
+        SkillInfra[🔧 Skill-Infrastructure Agent<br/>Detect Mismatches]
+        Reachability[📊 Reachability Agent<br/>Compute Access Scores]
+        Contradiction[🕸️ Contradiction Agent<br/>Build Graph]
+        Desert[🏜️ Desert Typology Agent<br/>Classify Medical Deserts]
+        Counterfactual[🔮 Counterfactual Engine<br/>What-If Scenarios]
+    end
+    
+    Verification[🔍 External Verification Agent<br/>Validate Claims via APIs<br/>SERP + Tavily]
+    ResponseGen[📝 Response Generator<br/>Synthesize Final Answer]
+    Output[✅ Final Response]
+    
+    User --> IntentRouter
+    IntentRouter -->|SQL Query| SQL
+    IntentRouter -->|Semantic Search| Vector
+    IntentRouter -->|Geo Analysis| Geo
+    
+    SQL --> DataQualityRouter
+    Vector --> DataQualityRouter
+    Geo --> DataQualityRouter
+    
+    DataQualityRouter -->|mismatch keywords| SkillInfra
+    DataQualityRouter -->|access keywords| Reachability
+    DataQualityRouter -->|pattern keywords| Contradiction
+    DataQualityRouter -->|desert keywords| Desert
+    DataQualityRouter -->|what-if keywords| Counterfactual
+    
+    SkillInfra -.->|Mismatches| Contradiction
+    Geo -.->|Locations| Reachability
+    Reachability -.->|Scores| Desert
+    
+    SkillInfra ==>|Critical Claims| Verification
+    SQL ==>|Insufficient Data| Verification
+    Vector ==>|Insufficient Data| Verification
+    
+    SQL --> ResponseGen
+    Vector --> ResponseGen
+    Geo --> ResponseGen
+    SkillInfra --> ResponseGen
+    Reachability --> ResponseGen
+    Contradiction --> ResponseGen
+    Desert --> ResponseGen
+    Counterfactual --> ResponseGen
+    Verification ==>|External Evidence| ResponseGen
+    
+    ResponseGen --> Output
+    
+    classDef entry fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+    classDef routing fill:#FFF9C4,stroke:#F57C00,stroke-width:2px
+    classDef core fill:#C8E6C9,stroke:#388E3C,stroke-width:2px
+    classDef analytics fill:#FFE0B2,stroke:#E64A19,stroke-width:2px
+    classDef verification fill:#F8BBD0,stroke:#C2185B,stroke-width:2px
+    classDef synthesis fill:#D1C4E9,stroke:#512DA8,stroke-width:2px
+    
+    class User,Output entry
+    class IntentRouter,DataQualityRouter routing
+    class SQL,Vector,Geo core
+    class SkillInfra,Reachability,Contradiction,Desert,Counterfactual analytics
+    class Verification verification
+    class ResponseGen synthesis
+        </div>
+    </div>
+
+    <div class="legend">
+        <h3>Legend</h3>
+        <ul>
+            <li>🟦 <strong>Blue</strong> - Entry/Exit Points</li>
+            <li>🟨 <strong>Yellow</strong> - Routing Logic</li>
+            <li>🟩 <strong>Green</strong> - Core Data Agents</li>
+            <li>🟧 <strong>Orange</strong> - Analytics Agents</li>
+            <li>🟪 <strong>Pink</strong> - External Verification</li>
+            <li>🟣 <strong>Purple</strong> - Response Synthesis</li>
+        </ul>
+    </div>
+
+    <h2>2. Data Flow</h2>
+    <div class="diagram-container">
+        <div class="mermaid">
+graph LR
+    CSV[(📄 CSV Files<br/>Hospitals, Doctors,<br/>Mapping, Departments)]
+    SQLite[(🗄️ SQLite<br/>Database)]
+    ChromaDB[(🔍 ChromaDB<br/>Vector Store)]
+    State[📦 Application State<br/>TypedDict]
+    SQLResult[📊 SQL Results]
+    VectorResult[🔍 Vector Results]
+    GeoResult[🗺️ Geo Results]
+    AnalyticsResults[📈 Analytics Results]
+    ExternalResults[🌐 External Search<br/>Results]
+    Response[✅ Final Response]
+    
+    CSV -->|Load on init| SQLite
+    CSV -->|Index on init| ChromaDB
+    SQLite -->|Query| SQLResult
+    ChromaDB -->|Semantic search| VectorResult
+    SQLResult --> State
+    VectorResult --> State
+    GeoResult --> State
+    State -->|Analytics Pipeline| AnalyticsResults
+    State -->|External Verification| ExternalResults
+    AnalyticsResults --> State
+    ExternalResults --> State
+    State -->|Final synthesis| Response
+    
+    classDef dataSource fill:#E1F5FE,stroke:#0277BD,stroke-width:2px
+    classDef processing fill:#FFF9C4,stroke:#F57C00,stroke-width:2px
+    classDef results fill:#C8E6C9,stroke:#388E3C,stroke-width:2px
+    classDef external fill:#F8BBD0,stroke:#C2185B,stroke-width:2px
+    classDef final fill:#D1C4E9,stroke:#512DA8,stroke-width:2px
+    
+    class CSV,SQLite,ChromaDB dataSource
+    class State processing
+    class SQLResult,VectorResult,GeoResult,AnalyticsResults results
+    class ExternalResults external
+    class Response final
+        </div>
+    </div>
+
+    <h2>3. Agent Interaction Sequence</h2>
+    <div class="diagram-container">
+        <div class="mermaid">
+sequenceDiagram
+    participant User
+    participant Router as Intent Router
+    participant SQL as SQL Agent
+    participant SI as Skill-Infra Agent
+    participant Verify as External Verification
+    participant RG as Response Generator
+    
+    User->>Router: Ask question
+    Router->>Router: Classify intent
+    Router->>SQL: Execute query
+    SQL-->>Router: Results
+    Router->>SI: Detect mismatches
+    SI-->>Router: Mismatches found
+    
+    alt Critical Mismatches
+        SI->>Verify: Verify critical claims
+        Verify->>Verify: Search SERP/Tavily
+        Verify->>Verify: Analyze with LLM
+        Verify-->>SI: Verification results
+    end
+    
+    alt Insufficient Data
+        SQL->>Verify: No results found
+        Verify->>Verify: Search external sources
+        Verify-->>SQL: Additional data
+    end
+    
+    Router->>RG: All results
+    RG->>RG: Synthesize answer
+    RG-->>User: Final response
+        </div>
+    </div>
+
+    <div class="note">
+        <strong>How to use these diagrams:</strong>
+        <ol>
+            <li>Open this HTML file in any modern browser</li>
+            <li>Diagrams render automatically using Mermaid.js</li>
+            <li>You can also view the .md files in VS Code or GitHub</li>
+            <li>For presentations, take screenshots or export as PDF from browser</li>
+        </ol>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: { 
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            }
+        });
+    </script>
+</body>
+</html>
